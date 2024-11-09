@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/CelsivincysKumar/Documents/GitHub/LevelHerUp-GameJam/LHUJam24/Content/Blueprints/BP_PlayerController.uasset",
+				"C:/Users/CelsivincysKumar/Documents/GitHub/LevelHerUp-GameJam/LHUJam24/Content/UI/Menu/W_Menu.uasset",
 				"D:/Gabbie/Files/Creative/LHU Game Jam 2024/Unreal/LevelHerUp-GameJam/LHUJam24/Content/Levels/GameJam_Persistent.umap",
 				"D:/Gabbie/Files/Creative/LHU Game Jam 2024/Unreal/LevelHerUp-GameJam/LHUJam24/Content/UI/Input/Actions/IA_SetDestination_Click.uasset",
 				"D:/Gabbie/Files/Creative/LHU Game Jam 2024/Unreal/LevelHerUp-GameJam/LHUJam24/Content/UI/Input/Actions/IA_SetDestination_Touch.uasset",
