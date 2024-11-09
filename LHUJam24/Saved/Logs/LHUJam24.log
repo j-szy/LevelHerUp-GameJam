@@ -1806,3 +1806,1053 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.09-05.29.16:018][652]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
 [2024.11.09-05.29.16:026][652]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
 [2024.11.09-05.29.16:079][653]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.11.09-05.30.11:628][784]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.30.11:628][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.30.43:871][262]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.11.09-05.30.43:872][262]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/GameJam_Persistent' took 0.029
+[2024.11.09-05.30.43:873][262]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/Menu/W_Menu] ([2] browsable assets)...
+[2024.11.09-05.30.43:877][262]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/Menu/W_Menu.W_Menu]
+[2024.11.09-05.30.43:877][262]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Menu/W_Menu]
+[2024.11.09-05.30.43:881][262]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/Menu/W_Menu_Auto1
+[2024.11.09-05.30.43:881][262]LogSavePackage: Moving '../../../../../../Users/CelsivincysKumar/Documents/GitHub/LevelHerUp-GameJam/LHUJam24/Saved/W_Menu_Auto15CD15B374518F67EB0D45592B54EBD26.tmp' to '../../../../../../Users/CelsivincysKumar/Documents/GitHub/LevelHerUp-GameJam/LHUJam24/Saved/Autosaves/Game/UI/Menu/W_Menu_Auto1.uasset'
+[2024.11.09-05.30.43:883][262]LogFileHelpers: Auto-saving content packages took 0.010
+[2024.11.09-05.30.51:351][595]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.30.51:359][595]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.09-05.30.51:361][595]LogPlayLevel: [PlayLevel] Compiling W_Menu before play...
+[2024.11.09-05.30.51:434][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.11.09-05.30.51:435][595]LogPlayLevel: PlayLevel: Blueprint regeneration took 77 ms (1 blueprints)
+[2024.11.09-05.30.51:435][595]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:30:51 pm)
+[2024.11.09-05.30.51:435][595]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.30.51:437][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001063s)
+[2024.11.09-05.30.51:437][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001089s)
+[2024.11.09-05.30.51:437][595]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.30.51:437][595]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.30.51:437][595]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.30.51:437][595]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2024.11.09-05.30.51:463][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.11.09-05.30.51:463][595]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.11.09-05.30.51:463][595]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.30.51:463][595]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.30.51:463][595]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.30.51:463][595]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.30.51:463][595]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.30.51:463][595]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.30.51:463][595]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.30.51:463][595]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.30.51:464][595]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.30.51:464][595]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.30.51:464][595]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.30.51:466][595]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.30.51:486][595]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.30.51:486][595]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.30.51:486][595]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.30.51:486][595]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.30.51:487][595]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.11.09-05.30.51:487][595]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.11.09-05.30.51:488][595]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.11.09-05.30.51:488][595]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.11.09-05.30.51:488][595]LogInit: FAudioDevice initialized with ID 10.
+[2024.11.09-05.30.51:488][595]LogAudio: Display: Audio Device (ID: 10) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.30.51:489][595]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.11.09-05.30.51:566][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.30.51:566][595]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.30.51:566][595]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.30.51
+[2024.11.09-05.30.51:567][595]LogWorld: Bringing up level for play took: 0.000656
+[2024.11.09-05.30.51:569][595]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.11.09-05.30.51:574][595]PIE: Server logged in
+[2024.11.09-05.30.51:577][595]PIE: Play in editor total start time 0.219 seconds.
+[2024.11.09-05.30.51:636][595]LogViewport: Scene viewport resized to 1294x790, mode Windowed.
+[2024.11.09-05.31.05:520][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.31.05:520][303]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.31.05:520][303]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.31.05:523][303]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.31.05:523][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.31.05:526][303]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.31.05:532][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.31.05:562][303]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.11.09-05.31.05:562][303]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.11.09-05.31.05:564][303]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.11.09-05.31.05:573][303]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2024.11.09-05.31.05:620][304]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.11.09-05.31.08:262][398]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.31.08:270][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.09-05.31.08:270][398]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:31:08 pm)
+[2024.11.09-05.31.08:270][398]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.31.08:271][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001377s)
+[2024.11.09-05.31.08:271][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001429s)
+[2024.11.09-05.31.08:271][398]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.31.08:271][398]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.31.08:272][398]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.31.08:272][398]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2024.11.09-05.31.08:301][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.11.09-05.31.08:303][398]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.11.09-05.31.08:303][398]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.31.08:303][398]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.31.08:303][398]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.31.08:303][398]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.31.08:303][398]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.31.08:303][398]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.31.08:303][398]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.31.08:303][398]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.31.08:304][398]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.31.08:304][398]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.31.08:304][398]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.31.08:306][398]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.31.08:330][398]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.31.08:331][398]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.31.08:331][398]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.31.08:331][398]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.31.08:332][398]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.11.09-05.31.08:332][398]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.11.09-05.31.08:334][398]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.11.09-05.31.08:334][398]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.11.09-05.31.08:334][398]LogInit: FAudioDevice initialized with ID 11.
+[2024.11.09-05.31.08:334][398]LogAudio: Display: Audio Device (ID: 11) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.31.08:334][398]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.11.09-05.31.08:409][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.31.08:410][398]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.31.08:410][398]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.31.08
+[2024.11.09-05.31.08:410][398]LogWorld: Bringing up level for play took: 0.000555
+[2024.11.09-05.31.08:413][398]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.11.09-05.31.08:418][398]PIE: Server logged in
+[2024.11.09-05.31.08:421][398]PIE: Play in editor total start time 0.151 seconds.
+[2024.11.09-05.31.08:456][398]LogViewport: Scene viewport resized to 1296x800, mode Windowed.
+[2024.11.09-05.31.16:329][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.31.16:329][777]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.31.16:329][777]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.31.16:338][777]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.31.16:338][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.31.16:342][777]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.31.16:348][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.31.16:383][777]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.11.09-05.31.16:383][777]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.11.09-05.31.16:386][777]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.11.09-05.31.16:395][777]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2024.11.09-05.31.16:447][778]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.11.09-05.31.36:060][641]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.31.36:070][641]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.09-05.31.36:072][641]LogPlayLevel: [PlayLevel] Compiling W_Menu before play...
+[2024.11.09-05.31.36:177][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.11.09-05.31.36:179][641]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (1 blueprints)
+[2024.11.09-05.31.36:179][641]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:31:36 pm)
+[2024.11.09-05.31.36:179][641]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.31.36:180][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001486s)
+[2024.11.09-05.31.36:180][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001522s)
+[2024.11.09-05.31.36:180][641]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.31.36:180][641]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.31.36:181][641]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.31.36:181][641]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2024.11.09-05.31.36:214][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.11.09-05.31.36:214][641]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.11.09-05.31.36:214][641]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.31.36:214][641]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.31.36:214][641]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.31.36:214][641]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.31.36:214][641]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.31.36:214][641]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.31.36:214][641]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.31.36:214][641]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.31.36:215][641]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.31.36:215][641]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.31.36:215][641]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.31.36:218][641]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.31.36:247][641]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.31.36:247][641]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.31.36:247][641]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.31.36:247][641]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.31.36:248][641]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.11.09-05.31.36:248][641]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.11.09-05.31.36:250][641]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.11.09-05.31.36:250][641]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.11.09-05.31.36:250][641]LogInit: FAudioDevice initialized with ID 12.
+[2024.11.09-05.31.36:250][641]LogAudio: Display: Audio Device (ID: 12) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.31.36:250][641]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.11.09-05.31.36:326][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.31.36:326][641]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.31.36:327][641]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.31.36
+[2024.11.09-05.31.36:327][641]LogWorld: Bringing up level for play took: 0.000783
+[2024.11.09-05.31.36:330][641]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.11.09-05.31.36:336][641]PIE: Server logged in
+[2024.11.09-05.31.36:339][641]PIE: Play in editor total start time 0.269 seconds.
+[2024.11.09-05.31.36:392][641]LogViewport: Scene viewport resized to 1298x810, mode Windowed.
+[2024.11.09-05.31.41:670][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.31.41:670][873]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.31.41:670][873]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.31.41:677][873]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.31.41:677][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.31.41:680][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.31.41:685][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.31.41:721][873]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.11.09-05.31.41:721][873]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.11.09-05.31.41:723][873]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.11.09-05.31.41:732][873]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2024.11.09-05.31.41:784][874]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.11.09-05.31.43:843][940]BlueprintLog: New page: Compile W_Menu
+[2024.11.09-05.31.43:903][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.11.09-05.31.45:016][975]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.31.45:025][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.09-05.31.45:025][975]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:31:45 pm)
+[2024.11.09-05.31.45:025][975]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.31.45:026][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001364s)
+[2024.11.09-05.31.45:026][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001399s)
+[2024.11.09-05.31.45:026][975]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.31.45:026][975]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.31.45:027][975]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.31.45:027][975]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2024.11.09-05.31.45:058][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.11.09-05.31.45:060][975]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.11.09-05.31.45:060][975]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.31.45:060][975]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.31.45:060][975]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.31.45:060][975]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.31.45:060][975]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.31.45:060][975]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.31.45:060][975]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.31.45:060][975]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.31.45:061][975]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.31.45:061][975]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.31.45:061][975]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.31.45:063][975]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.31.45:091][975]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.31.45:092][975]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.31.45:092][975]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.31.45:092][975]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.31.45:092][975]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.11.09-05.31.45:092][975]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.11.09-05.31.45:095][975]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.11.09-05.31.45:095][975]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.11.09-05.31.45:095][975]LogInit: FAudioDevice initialized with ID 13.
+[2024.11.09-05.31.45:095][975]LogAudio: Display: Audio Device (ID: 13) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.31.45:095][975]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.11.09-05.31.45:156][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.31.45:156][975]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.31.45:157][975]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.31.45
+[2024.11.09-05.31.45:157][975]LogWorld: Bringing up level for play took: 0.000799
+[2024.11.09-05.31.45:160][975]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.11.09-05.31.45:166][975]PIE: Server logged in
+[2024.11.09-05.31.45:169][975]PIE: Play in editor total start time 0.145 seconds.
+[2024.11.09-05.31.45:209][975]LogViewport: Scene viewport resized to 1300x820, mode Windowed.
+[2024.11.09-05.31.47:680][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.31.47:680][ 65]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.31.47:680][ 65]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.31.47:686][ 65]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.31.47:686][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.31.47:689][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.31.47:695][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.31.47:733][ 65]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.09-05.31.47:733][ 65]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.11.09-05.31.47:733][ 65]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.11.09-05.31.47:736][ 65]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.11.09-05.31.47:744][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2024.11.09-05.31.47:795][ 66]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.11.09-05.33.17:545][ 92]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.09-05.33.28:485][586]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.09-05.35.30:235][961]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.35.30:245][961]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.09-05.35.30:247][961]LogPlayLevel: [PlayLevel] Compiling W_Menu before play...
+[2024.11.09-05.35.30:360][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.11.09-05.35.30:362][961]LogPlayLevel: PlayLevel: Blueprint regeneration took 117 ms (1 blueprints)
+[2024.11.09-05.35.30:362][961]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:35:30 pm)
+[2024.11.09-05.35.30:362][961]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.35.30:364][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001669s)
+[2024.11.09-05.35.30:364][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001708s)
+[2024.11.09-05.35.30:364][961]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.35.30:364][961]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.35.30:365][961]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.35.30:365][961]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2024.11.09-05.35.30:396][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.11.09-05.35.30:398][961]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.11.09-05.35.30:398][961]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.35.30:398][961]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.35.30:398][961]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.35.30:398][961]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.35.30:398][961]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.35.30:398][961]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.35.30:398][961]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.35.30:398][961]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.35.30:399][961]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.35.30:399][961]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.35.30:399][961]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.35.30:401][961]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.35.30:432][961]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.35.30:433][961]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.35.30:433][961]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.35.30:433][961]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.35.30:434][961]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.11.09-05.35.30:434][961]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.11.09-05.35.30:436][961]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.11.09-05.35.30:436][961]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.11.09-05.35.30:436][961]LogInit: FAudioDevice initialized with ID 14.
+[2024.11.09-05.35.30:436][961]LogAudio: Display: Audio Device (ID: 14) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.35.30:436][961]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.11.09-05.35.30:516][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.35.30:517][961]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.35.30:517][961]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.35.30
+[2024.11.09-05.35.30:518][961]LogWorld: Bringing up level for play took: 0.000729
+[2024.11.09-05.35.30:520][961]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.11.09-05.35.30:526][961]PIE: Server logged in
+[2024.11.09-05.35.30:530][961]PIE: Play in editor total start time 0.284 seconds.
+[2024.11.09-05.35.30:581][961]LogViewport: Scene viewport resized to 1302x830, mode Windowed.
+[2024.11.09-05.35.35:209][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.35.35:210][157]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.35.35:210][157]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.35.35:216][157]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.35.35:217][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.35.35:220][157]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.35.35:226][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.35.35:265][157]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.11.09-05.35.35:265][157]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.11.09-05.35.35:268][157]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.11.09-05.35.35:278][157]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2024.11.09-05.35.35:335][158]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.11.09-05.35.37:157][219]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.35.37:166][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.09-05.35.37:166][219]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:35:37 pm)
+[2024.11.09-05.35.37:166][219]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.35.37:168][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001819s)
+[2024.11.09-05.35.37:168][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001862s)
+[2024.11.09-05.35.37:168][219]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.35.37:168][219]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.35.37:168][219]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.35.37:169][219]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2024.11.09-05.35.37:202][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2024.11.09-05.35.37:204][219]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.11.09-05.35.37:204][219]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.35.37:204][219]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.35.37:204][219]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.35.37:204][219]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.35.37:204][219]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.35.37:204][219]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.35.37:204][219]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.35.37:204][219]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.35.37:205][219]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.35.37:205][219]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.35.37:205][219]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.35.37:207][219]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.35.37:237][219]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.35.37:237][219]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.35.37:237][219]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.35.37:237][219]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.35.37:238][219]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.11.09-05.35.37:238][219]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.11.09-05.35.37:240][219]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.11.09-05.35.37:240][219]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.11.09-05.35.37:240][219]LogInit: FAudioDevice initialized with ID 15.
+[2024.11.09-05.35.37:240][219]LogAudio: Display: Audio Device (ID: 15) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.35.37:240][219]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.11.09-05.35.37:304][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.35.37:304][219]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.35.37:305][219]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.35.37
+[2024.11.09-05.35.37:305][219]LogWorld: Bringing up level for play took: 0.000786
+[2024.11.09-05.35.37:308][219]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.11.09-05.35.37:314][219]PIE: Server logged in
+[2024.11.09-05.35.37:318][219]PIE: Play in editor total start time 0.152 seconds.
+[2024.11.09-05.35.37:359][219]LogViewport: Scene viewport resized to 1304x840, mode Windowed.
+[2024.11.09-05.35.41:450][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.35.41:450][404]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.35.41:450][404]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.35.41:457][404]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.35.41:457][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.35.41:460][404]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.35.41:466][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.35.41:503][404]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.11.09-05.35.41:503][404]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.11.09-05.35.41:505][404]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.11.09-05.35.41:516][404]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2024.11.09-05.35.41:568][405]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.11.09-05.36.01:140][ 25]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.36.01:149][ 25]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.09-05.36.01:150][ 25]LogPlayLevel: [PlayLevel] Compiling W_Menu before play...
+[2024.11.09-05.36.01:326][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.11.09-05.36.01:328][ 25]LogPlayLevel: PlayLevel: Blueprint regeneration took 178 ms (1 blueprints)
+[2024.11.09-05.36.01:328][ 25]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:36:01 pm)
+[2024.11.09-05.36.01:328][ 25]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.36.01:330][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001505s)
+[2024.11.09-05.36.01:330][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001541s)
+[2024.11.09-05.36.01:330][ 25]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.36.01:330][ 25]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.36.01:330][ 25]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.36.01:331][ 25]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2024.11.09-05.36.01:361][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.11.09-05.36.01:361][ 25]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.11.09-05.36.01:361][ 25]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.36.01:361][ 25]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.36.01:362][ 25]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.36.01:362][ 25]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.36.01:362][ 25]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.36.01:362][ 25]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.36.01:362][ 25]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.36.01:362][ 25]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.36.01:362][ 25]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.36.01:362][ 25]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.36.01:362][ 25]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.36.01:364][ 25]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.36.01:392][ 25]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.36.01:392][ 25]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.36.01:392][ 25]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.36.01:392][ 25]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.36.01:393][ 25]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.11.09-05.36.01:393][ 25]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.11.09-05.36.01:396][ 25]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.11.09-05.36.01:396][ 25]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.11.09-05.36.01:396][ 25]LogInit: FAudioDevice initialized with ID 16.
+[2024.11.09-05.36.01:396][ 25]LogAudio: Display: Audio Device (ID: 16) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.36.01:396][ 25]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.11.09-05.36.01:464][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.36.01:464][ 25]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.36.01:465][ 25]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.36.01
+[2024.11.09-05.36.01:465][ 25]LogWorld: Bringing up level for play took: 0.000753
+[2024.11.09-05.36.01:468][ 25]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.11.09-05.36.01:473][ 25]PIE: Server logged in
+[2024.11.09-05.36.01:477][ 25]PIE: Play in editor total start time 0.328 seconds.
+[2024.11.09-05.36.01:548][ 25]LogViewport: Scene viewport resized to 1306x850, mode Windowed.
+[2024.11.09-05.36.04:809][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.36.04:809][153]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.36.04:809][153]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.36.04:816][153]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.36.04:816][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.36.04:820][153]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.36.04:826][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.36.04:861][153]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.11.09-05.36.04:861][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.11.09-05.36.04:863][153]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.11.09-05.36.04:871][153]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.11.09-05.36.04:928][154]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.11.09-05.36.12:029][489]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.36.12:038][489]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.09-05.36.12:040][489]LogPlayLevel: [PlayLevel] Compiling W_Menu before play...
+[2024.11.09-05.36.12:223][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2024.11.09-05.36.12:225][489]LogPlayLevel: PlayLevel: Blueprint regeneration took 186 ms (1 blueprints)
+[2024.11.09-05.36.12:225][489]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:36:12 pm)
+[2024.11.09-05.36.12:225][489]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.36.12:227][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001462s)
+[2024.11.09-05.36.12:227][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001499s)
+[2024.11.09-05.36.12:227][489]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.36.12:227][489]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.36.12:227][489]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.36.12:227][489]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2024.11.09-05.36.12:258][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.11.09-05.36.12:259][489]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.11.09-05.36.12:259][489]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.36.12:259][489]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.36.12:259][489]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.36.12:259][489]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.36.12:259][489]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.36.12:259][489]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.36.12:259][489]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.36.12:259][489]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.36.12:260][489]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.36.12:260][489]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.36.12:260][489]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.36.12:262][489]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.36.12:290][489]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.36.12:291][489]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.36.12:291][489]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.36.12:291][489]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.36.12:292][489]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.11.09-05.36.12:292][489]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.11.09-05.36.12:294][489]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.11.09-05.36.12:294][489]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.11.09-05.36.12:294][489]LogInit: FAudioDevice initialized with ID 17.
+[2024.11.09-05.36.12:294][489]LogAudio: Display: Audio Device (ID: 17) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.36.12:294][489]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.11.09-05.36.12:372][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.36.12:373][489]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.36.12:373][489]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.36.12
+[2024.11.09-05.36.12:374][489]LogWorld: Bringing up level for play took: 0.000775
+[2024.11.09-05.36.12:376][489]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.11.09-05.36.12:381][489]PIE: Server logged in
+[2024.11.09-05.36.12:385][489]PIE: Play in editor total start time 0.348 seconds.
+[2024.11.09-05.36.12:456][489]LogViewport: Scene viewport resized to 1308x860, mode Windowed.
+[2024.11.09-05.36.15:489][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.36.15:490][609]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.36.15:490][609]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.36.15:497][609]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.36.15:497][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.36.15:500][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.36.15:507][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.36.15:543][609]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.11.09-05.36.15:543][609]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.11.09-05.36.15:545][609]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.11.09-05.36.15:555][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2024.11.09-05.36.15:610][610]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.11.09-05.36.48:623][936]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.36.48:632][936]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.09-05.36.48:634][936]LogPlayLevel: [PlayLevel] Compiling W_Menu before play...
+[2024.11.09-05.36.48:742][936]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.11.09-05.36.48:744][936]LogPlayLevel: PlayLevel: Blueprint regeneration took 112 ms (1 blueprints)
+[2024.11.09-05.36.48:744][936]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:36:48 pm)
+[2024.11.09-05.36.48:744][936]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.36.48:746][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001464s)
+[2024.11.09-05.36.48:746][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001499s)
+[2024.11.09-05.36.48:746][936]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.36.48:746][936]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.36.48:746][936]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.36.48:747][936]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2024.11.09-05.36.48:778][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2024.11.09-05.36.48:779][936]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.11.09-05.36.48:779][936]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.36.48:779][936]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.36.48:779][936]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.36.48:779][936]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.36.48:779][936]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.36.48:779][936]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.36.48:779][936]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.36.48:779][936]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.36.48:780][936]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.36.48:780][936]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.36.48:780][936]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.36.48:782][936]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.36.48:811][936]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.36.48:812][936]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.36.48:812][936]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.36.48:812][936]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.36.48:813][936]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.11.09-05.36.48:813][936]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.11.09-05.36.48:815][936]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.11.09-05.36.48:815][936]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.11.09-05.36.48:815][936]LogInit: FAudioDevice initialized with ID 18.
+[2024.11.09-05.36.48:815][936]LogAudio: Display: Audio Device (ID: 18) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.36.48:815][936]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.11.09-05.36.48:883][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.36.48:883][936]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.36.48:884][936]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.36.48
+[2024.11.09-05.36.48:884][936]LogWorld: Bringing up level for play took: 0.000651
+[2024.11.09-05.36.48:887][936]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.11.09-05.36.48:892][936]PIE: Server logged in
+[2024.11.09-05.36.48:896][936]PIE: Play in editor total start time 0.264 seconds.
+[2024.11.09-05.36.48:948][936]LogViewport: Scene viewport resized to 1310x870, mode Windowed.
+[2024.11.09-05.36.51:949][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.36.51:949][ 65]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.36.51:949][ 65]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.36.51:959][ 65]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.36.51:959][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.36.51:963][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.36.51:969][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.36.52:007][ 65]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.11.09-05.36.52:008][ 65]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.11.09-05.36.52:010][ 65]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.11.09-05.36.52:018][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2024.11.09-05.36.52:076][ 66]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.11.09-05.37.37:805][ 44]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.37.37:815][ 44]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.09-05.37.37:817][ 44]LogPlayLevel: [PlayLevel] Compiling W_Menu before play...
+[2024.11.09-05.37.38:003][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.11.09-05.37.38:004][ 44]LogPlayLevel: PlayLevel: Blueprint regeneration took 189 ms (1 blueprints)
+[2024.11.09-05.37.38:004][ 44]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:37:38 pm)
+[2024.11.09-05.37.38:004][ 44]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.37.38:006][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001488s)
+[2024.11.09-05.37.38:006][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001522s)
+[2024.11.09-05.37.38:006][ 44]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.37.38:006][ 44]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.37.38:007][ 44]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.37.38:007][ 44]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2024.11.09-05.37.38:039][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.11.09-05.37.38:039][ 44]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.11.09-05.37.38:039][ 44]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.37.38:039][ 44]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.37.38:039][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.37.38:039][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.37.38:039][ 44]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.37.38:039][ 44]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.37.38:039][ 44]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.37.38:039][ 44]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.37.38:040][ 44]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.37.38:040][ 44]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.37.38:040][ 44]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.37.38:042][ 44]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.37.38:070][ 44]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.37.38:070][ 44]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.37.38:070][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.37.38:070][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.37.38:072][ 44]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.11.09-05.37.38:072][ 44]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.11.09-05.37.38:074][ 44]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.11.09-05.37.38:074][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.11.09-05.37.38:074][ 44]LogInit: FAudioDevice initialized with ID 19.
+[2024.11.09-05.37.38:074][ 44]LogAudio: Display: Audio Device (ID: 19) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.37.38:074][ 44]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.11.09-05.37.38:144][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.37.38:144][ 44]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.37.38:145][ 44]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.37.38
+[2024.11.09-05.37.38:145][ 44]LogWorld: Bringing up level for play took: 0.000620
+[2024.11.09-05.37.38:148][ 44]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.11.09-05.37.38:153][ 44]PIE: Server logged in
+[2024.11.09-05.37.38:156][ 44]PIE: Play in editor total start time 0.341 seconds.
+[2024.11.09-05.37.38:226][ 44]LogViewport: Scene viewport resized to 1312x880, mode Windowed.
+[2024.11.09-05.37.41:999][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.37.42:000][190]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.37.42:000][190]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.37.42:004][190]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.37.42:004][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.37.42:007][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.37.42:013][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.37.42:052][190]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.11.09-05.37.42:052][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.11.09-05.37.42:055][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.11.09-05.37.42:064][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2024.11.09-05.37.42:124][191]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.11.09-05.37.43:290][213]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.37.43:298][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.09-05.37.43:298][213]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:37:43 pm)
+[2024.11.09-05.37.43:298][213]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.37.43:300][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001484s)
+[2024.11.09-05.37.43:300][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001522s)
+[2024.11.09-05.37.43:300][213]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.37.43:300][213]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.37.43:300][213]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.37.43:301][213]LogPlayLevel: PIE: World Init took: (0.001119s)
+[2024.11.09-05.37.43:333][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.11.09-05.37.43:335][213]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.11.09-05.37.43:335][213]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.37.43:335][213]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.37.43:335][213]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.37.43:335][213]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.37.43:335][213]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.37.43:335][213]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.37.43:335][213]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.37.43:335][213]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.37.43:336][213]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.37.43:336][213]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.37.43:336][213]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.37.43:338][213]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.37.43:365][213]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.37.43:366][213]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.37.43:366][213]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.37.43:366][213]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.37.43:366][213]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.11.09-05.37.43:366][213]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.11.09-05.37.43:369][213]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.11.09-05.37.43:369][213]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.11.09-05.37.43:369][213]LogInit: FAudioDevice initialized with ID 20.
+[2024.11.09-05.37.43:369][213]LogAudio: Display: Audio Device (ID: 20) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.37.43:369][213]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.11.09-05.37.43:447][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.37.43:447][213]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.37.43:448][213]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.37.43
+[2024.11.09-05.37.43:448][213]LogWorld: Bringing up level for play took: 0.000761
+[2024.11.09-05.37.43:451][213]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.11.09-05.37.43:456][213]PIE: Server logged in
+[2024.11.09-05.37.43:459][213]PIE: Play in editor total start time 0.16 seconds.
+[2024.11.09-05.37.43:497][213]LogViewport: Scene viewport resized to 1314x890, mode Windowed.
+[2024.11.09-05.37.46:429][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.37.46:429][326]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.37.46:429][326]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.37.46:436][326]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.37.46:436][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.37.46:440][326]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.37.46:446][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.37.46:484][326]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.11.09-05.37.46:484][326]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.11.09-05.37.46:486][326]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.11.09-05.37.46:494][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.11.09-05.37.46:550][327]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.11.09-05.38.45:979][832]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.38.45:989][832]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.09-05.38.45:992][832]LogPlayLevel: [PlayLevel] Compiling W_Menu before play...
+[2024.11.09-05.38.46:106][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.11.09-05.38.46:108][832]LogPlayLevel: PlayLevel: Blueprint regeneration took 118 ms (1 blueprints)
+[2024.11.09-05.38.46:108][832]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:38:46 pm)
+[2024.11.09-05.38.46:108][832]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.38.46:110][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001600s)
+[2024.11.09-05.38.46:110][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001638s)
+[2024.11.09-05.38.46:110][832]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.38.46:111][832]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.38.46:111][832]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.38.46:111][832]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2024.11.09-05.38.46:143][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.11.09-05.38.46:144][832]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.11.09-05.38.46:144][832]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.38.46:144][832]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.38.46:144][832]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.38.46:144][832]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.38.46:144][832]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.38.46:144][832]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.38.46:144][832]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.38.46:144][832]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.38.46:144][832]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.38.46:144][832]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.38.46:145][832]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.38.46:147][832]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.38.46:177][832]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.38.46:177][832]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.38.46:177][832]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.38.46:177][832]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.38.46:179][832]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.11.09-05.38.46:179][832]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.11.09-05.38.46:181][832]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.11.09-05.38.46:181][832]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.11.09-05.38.46:181][832]LogInit: FAudioDevice initialized with ID 21.
+[2024.11.09-05.38.46:181][832]LogAudio: Display: Audio Device (ID: 21) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.38.46:181][832]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.11.09-05.38.46:248][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.38.46:249][832]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.38.46:249][832]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.38.46
+[2024.11.09-05.38.46:250][832]LogWorld: Bringing up level for play took: 0.000658
+[2024.11.09-05.38.46:252][832]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.11.09-05.38.46:258][832]PIE: Server logged in
+[2024.11.09-05.38.46:261][832]PIE: Play in editor total start time 0.272 seconds.
+[2024.11.09-05.38.46:315][832]LogViewport: Scene viewport resized to 1316x900, mode Windowed.
+[2024.11.09-05.38.57:429][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.38.57:429][368]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.38.57:429][368]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.38.57:437][368]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.38.57:437][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.38.57:441][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.38.57:451][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.38.57:489][368]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.11.09-05.38.57:489][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.11.09-05.38.57:491][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.11.09-05.38.57:502][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2024.11.09-05.38.57:557][369]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.11.09-05.39.06:912][674]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.39.06:920][674]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.09-05.39.06:922][674]LogPlayLevel: [PlayLevel] Compiling W_Menu before play...
+[2024.11.09-05.39.07:089][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.11.09-05.39.07:091][674]LogPlayLevel: PlayLevel: Blueprint regeneration took 169 ms (1 blueprints)
+[2024.11.09-05.39.07:091][674]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:39:07 pm)
+[2024.11.09-05.39.07:091][674]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.39.07:092][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001392s)
+[2024.11.09-05.39.07:092][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001427s)
+[2024.11.09-05.39.07:092][674]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.39.07:092][674]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.39.07:093][674]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.39.07:093][674]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2024.11.09-05.39.07:123][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.11.09-05.39.07:123][674]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.11.09-05.39.07:123][674]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.39.07:123][674]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.39.07:123][674]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.39.07:123][674]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.39.07:123][674]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.39.07:123][674]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.39.07:123][674]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.39.07:123][674]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.39.07:124][674]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.39.07:124][674]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.39.07:124][674]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.39.07:126][674]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.39.07:152][674]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.39.07:152][674]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.39.07:152][674]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.39.07:152][674]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.39.07:153][674]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.11.09-05.39.07:153][674]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.11.09-05.39.07:155][674]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.11.09-05.39.07:155][674]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.11.09-05.39.07:155][674]LogInit: FAudioDevice initialized with ID 22.
+[2024.11.09-05.39.07:155][674]LogAudio: Display: Audio Device (ID: 22) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.39.07:155][674]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.11.09-05.39.07:222][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.39.07:222][674]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.39.07:223][674]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.39.07
+[2024.11.09-05.39.07:223][674]LogWorld: Bringing up level for play took: 0.000781
+[2024.11.09-05.39.07:226][674]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.11.09-05.39.07:231][674]PIE: Server logged in
+[2024.11.09-05.39.07:235][674]PIE: Play in editor total start time 0.314 seconds.
+[2024.11.09-05.39.07:302][674]LogViewport: Scene viewport resized to 1318x910, mode Windowed.
+[2024.11.09-05.39.09:860][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.39.09:860][767]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.39.09:861][767]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.39.09:869][767]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.39.09:870][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.39.09:873][767]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.39.09:879][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.39.09:915][767]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.11.09-05.39.09:916][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.11.09-05.39.09:918][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.11.09-05.39.09:927][767]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.11.09-05.39.09:986][768]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.11.09-05.39.20:676][ 95]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.39.20:687][ 95]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.09-05.39.20:689][ 95]LogPlayLevel: [PlayLevel] Compiling W_Menu before play...
+[2024.11.09-05.39.20:795][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.11.09-05.39.20:797][ 95]LogPlayLevel: PlayLevel: Blueprint regeneration took 109 ms (1 blueprints)
+[2024.11.09-05.39.20:797][ 95]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:39:20 pm)
+[2024.11.09-05.39.20:797][ 95]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.39.20:798][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001437s)
+[2024.11.09-05.39.20:798][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001472s)
+[2024.11.09-05.39.20:798][ 95]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.39.20:799][ 95]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.39.20:799][ 95]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.39.20:799][ 95]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2024.11.09-05.39.20:829][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.11.09-05.39.20:830][ 95]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.11.09-05.39.20:830][ 95]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.39.20:830][ 95]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.39.20:830][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.39.20:830][ 95]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.39.20:830][ 95]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.39.20:830][ 95]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.39.20:830][ 95]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.39.20:830][ 95]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.39.20:831][ 95]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.39.20:831][ 95]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.39.20:831][ 95]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.39.20:833][ 95]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.39.20:862][ 95]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.39.20:862][ 95]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.39.20:862][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.39.20:862][ 95]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.39.20:863][ 95]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.11.09-05.39.20:863][ 95]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.11.09-05.39.20:865][ 95]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.11.09-05.39.20:865][ 95]LogInit: FAudioDevice initialized with ID 23.
+[2024.11.09-05.39.20:865][ 95]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.11.09-05.39.20:865][ 95]LogAudio: Display: Audio Device (ID: 23) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.39.20:865][ 95]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.11.09-05.39.20:934][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.39.20:934][ 95]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.39.20:935][ 95]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.39.20
+[2024.11.09-05.39.20:935][ 95]LogWorld: Bringing up level for play took: 0.000645
+[2024.11.09-05.39.20:938][ 95]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.11.09-05.39.20:943][ 95]PIE: Server logged in
+[2024.11.09-05.39.20:947][ 95]PIE: Play in editor total start time 0.26 seconds.
+[2024.11.09-05.39.20:997][ 95]LogViewport: Scene viewport resized to 1320x920, mode Windowed.
+[2024.11.09-05.39.31:719][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.39.31:719][608]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.39.31:720][608]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.39.31:726][608]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.39.31:727][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.39.31:731][608]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.39.31:737][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.39.31:776][608]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.11.09-05.39.31:776][608]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.11.09-05.39.31:777][608]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.11.09-05.39.31:787][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2024.11.09-05.39.31:841][609]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.11.09-05.41.10:676][100]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.41.10:685][100]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.09-05.41.10:688][100]LogPlayLevel: [PlayLevel] Compiling W_Menu before play...
+[2024.11.09-05.41.10:797][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.11.09-05.41.10:799][100]LogPlayLevel: PlayLevel: Blueprint regeneration took 113 ms (1 blueprints)
+[2024.11.09-05.41.10:799][100]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:41:10 pm)
+[2024.11.09-05.41.10:799][100]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.41.10:801][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001527s)
+[2024.11.09-05.41.10:801][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001563s)
+[2024.11.09-05.41.10:801][100]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.41.10:801][100]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.41.10:802][100]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.41.10:802][100]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2024.11.09-05.41.10:833][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.11.09-05.41.10:833][100]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.11.09-05.41.10:833][100]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.41.10:833][100]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.41.10:833][100]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.41.10:833][100]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.41.10:833][100]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.41.10:834][100]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.41.10:834][100]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.41.10:834][100]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.41.10:834][100]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.41.10:834][100]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.41.10:834][100]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.41.10:837][100]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.41.10:866][100]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.41.10:866][100]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.41.10:866][100]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.41.10:866][100]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.41.10:868][100]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.11.09-05.41.10:868][100]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.11.09-05.41.10:869][100]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.11.09-05.41.10:869][100]LogInit: FAudioDevice initialized with ID 24.
+[2024.11.09-05.41.10:869][100]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.11.09-05.41.10:869][100]LogAudio: Display: Audio Device (ID: 24) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.41.10:870][100]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.11.09-05.41.10:934][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.41.10:934][100]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.41.10:935][100]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.41.10
+[2024.11.09-05.41.10:935][100]LogWorld: Bringing up level for play took: 0.000710
+[2024.11.09-05.41.10:938][100]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.11.09-05.41.10:943][100]PIE: Server logged in
+[2024.11.09-05.41.10:947][100]PIE: Play in editor total start time 0.262 seconds.
+[2024.11.09-05.41.10:999][100]LogViewport: Scene viewport resized to 1322x930, mode Windowed.
+[2024.11.09-05.41.14:200][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.41.14:200][220]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.41.14:200][220]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.41.14:209][220]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.41.14:209][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.41.14:215][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.41.14:220][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.41.14:253][220]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.11.09-05.41.14:253][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.11.09-05.41.14:256][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.11.09-05.41.14:265][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.11.09-05.41.14:319][221]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.11.09-05.42.25:718][323]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.42.25:727][323]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.09-05.42.25:729][323]LogPlayLevel: [PlayLevel] Compiling W_Menu before play...
+[2024.11.09-05.42.25:840][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.11.09-05.42.25:842][323]LogPlayLevel: PlayLevel: Blueprint regeneration took 115 ms (1 blueprints)
+[2024.11.09-05.42.25:842][323]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:42:25 pm)
+[2024.11.09-05.42.25:843][323]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.42.25:844][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001650s)
+[2024.11.09-05.42.25:844][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001703s)
+[2024.11.09-05.42.25:844][323]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.42.25:844][323]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.42.25:845][323]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.42.25:845][323]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2024.11.09-05.42.25:877][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.11.09-05.42.25:878][323]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.11.09-05.42.25:878][323]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.42.25:878][323]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.42.25:878][323]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.42.25:878][323]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.42.25:878][323]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.42.25:878][323]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.42.25:878][323]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.42.25:878][323]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.42.25:878][323]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.42.25:878][323]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.42.25:878][323]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.42.25:881][323]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.42.25:910][323]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.42.25:911][323]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.42.25:911][323]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.42.25:911][323]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.42.25:912][323]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.11.09-05.42.25:913][323]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.11.09-05.42.25:914][323]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.11.09-05.42.25:914][323]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.11.09-05.42.25:914][323]LogInit: FAudioDevice initialized with ID 25.
+[2024.11.09-05.42.25:914][323]LogAudio: Display: Audio Device (ID: 25) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.42.25:914][323]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.11.09-05.42.25:987][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.42.25:987][323]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.42.25:987][323]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.42.25
+[2024.11.09-05.42.25:988][323]LogWorld: Bringing up level for play took: 0.000651
+[2024.11.09-05.42.25:990][323]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.11.09-05.42.25:996][323]PIE: Server logged in
+[2024.11.09-05.42.26:000][323]PIE: Play in editor total start time 0.273 seconds.
+[2024.11.09-05.42.26:054][323]LogViewport: Scene viewport resized to 1324x940, mode Windowed.
+[2024.11.09-05.42.30:049][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.42.30:050][485]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.42.30:050][485]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.42.30:053][485]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.42.30:053][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.42.30:056][485]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.42.30:063][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.42.30:101][485]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.11.09-05.42.30:101][485]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.11.09-05.42.30:104][485]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.11.09-05.42.30:114][485]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2024.11.09-05.42.30:175][486]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.11.09-05.42.31:211][506]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.42.31:219][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.09-05.42.31:219][506]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:42:31 pm)
+[2024.11.09-05.42.31:219][506]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.42.31:220][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001297s)
+[2024.11.09-05.42.31:220][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001330s)
+[2024.11.09-05.42.31:220][506]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.42.31:220][506]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.42.31:221][506]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.42.31:221][506]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2024.11.09-05.42.31:251][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2024.11.09-05.42.31:252][506]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.11.09-05.42.31:253][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.42.31:253][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.42.31:253][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.42.31:253][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.42.31:253][506]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.42.31:253][506]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.42.31:253][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.42.31:253][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.42.31:253][506]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.42.31:253][506]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.42.31:253][506]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.42.31:256][506]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.42.31:284][506]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.42.31:284][506]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.42.31:284][506]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.42.31:284][506]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.42.31:285][506]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.11.09-05.42.31:285][506]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.11.09-05.42.31:287][506]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.11.09-05.42.31:287][506]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.11.09-05.42.31:287][506]LogInit: FAudioDevice initialized with ID 26.
+[2024.11.09-05.42.31:287][506]LogAudio: Display: Audio Device (ID: 26) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.42.31:287][506]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.11.09-05.42.31:351][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.42.31:351][506]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.42.31:352][506]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.42.31
+[2024.11.09-05.42.31:352][506]LogWorld: Bringing up level for play took: 0.000774
+[2024.11.09-05.42.31:354][506]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.11.09-05.42.31:360][506]PIE: Server logged in
+[2024.11.09-05.42.31:364][506]PIE: Play in editor total start time 0.145 seconds.
+[2024.11.09-05.42.31:401][506]LogViewport: Scene viewport resized to 1326x950, mode Windowed.
+[2024.11.09-05.42.57:949][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.42.57:949][771]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.42.57:949][771]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.42.57:954][771]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.42.57:954][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.42.57:956][771]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.42.57:961][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.42.57:996][771]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.11.09-05.42.57:996][771]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.11.09-05.42.57:998][771]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.11.09-05.42.58:006][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.11.09-05.42.58:057][772]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.11.09-05.43.00:617][856]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.11.09-05.43.00:626][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.09-05.43.00:626][856]PIE: New page: PIE session: GameJam_Persistent (9 Nov 2024, 9:43:00 pm)
+[2024.11.09-05.43.00:626][856]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.43.00:628][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001858s)
+[2024.11.09-05.43.00:628][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/GameJam_Persistent.GameJam_Persistent to /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent (0.001907s)
+[2024.11.09-05.43.00:628][856]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.09-05.43.00:628][856]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.09-05.43.00:629][856]LogAIModule: Creating AISystem for world GameJam_Persistent
+[2024.11.09-05.43.00:629][856]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2024.11.09-05.43.00:663][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.11.09-05.43.00:665][856]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2024.11.09-05.43.00:665][856]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.09-05.43.00:665][856]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.09-05.43.00:665][856]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.09-05.43.00:665][856]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.09-05.43.00:665][856]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.09-05.43.00:665][856]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.09-05.43.00:665][856]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.09-05.43.00:666][856]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.09-05.43.00:666][856]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.09-05.43.00:666][856]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.09-05.43.00:666][856]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.09-05.43.00:669][856]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.09-05.43.00:699][856]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.09-05.43.00:699][856]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.09-05.43.00:699][856]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.09-05.43.00:699][856]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.09-05.43.00:700][856]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2024.11.09-05.43.00:700][856]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2024.11.09-05.43.00:702][856]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2024.11.09-05.43.00:702][856]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2024.11.09-05.43.00:702][856]LogInit: FAudioDevice initialized with ID 27.
+[2024.11.09-05.43.00:702][856]LogAudio: Display: Audio Device (ID: 27) registered with world 'GameJam_Persistent'.
+[2024.11.09-05.43.00:702][856]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2024.11.09-05.43.00:755][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.43.00:755][856]LogLoad: Game class is 'BP_GameMode_C'
+[2024.11.09-05.43.00:756][856]LogWorld: Bringing World /Game/Levels/UEDPIE_0_GameJam_Persistent.GameJam_Persistent up for play (max tick rate 60) at 2024.11.09-13.43.00
+[2024.11.09-05.43.00:757][856]LogWorld: Bringing up level for play took: 0.000868
+[2024.11.09-05.43.00:760][856]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.11.09-05.43.00:766][856]PIE: Server logged in
+[2024.11.09-05.43.00:769][856]PIE: Play in editor total start time 0.143 seconds.
+[2024.11.09-05.43.00:814][856]LogViewport: Scene viewport resized to 1328x960, mode Windowed.
+[2024.11.09-05.43.04:819][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.09-05.43.04:819][ 10]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_GameJam_Persistent
+[2024.11.09-05.43.04:819][ 10]LogSlate: Window 'LHUJam24 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.11.09-05.43.04:829][ 10]LogWorld: UWorld::CleanupWorld for GameJam_Persistent, bSessionEnded=true, bCleanupResources=true
+[2024.11.09-05.43.04:829][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.43.04:834][ 10]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.09-05.43.04:840][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.09-05.43.04:877][ 10]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2024.11.09-05.43.04:877][ 10]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.11.09-05.43.04:880][ 10]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.11.09-05.43.04:889][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.11.09-05.43.04:949][ 11]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.11.09-05.43.13:308][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.11.09-05.43.13:314][368]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.09-05.43.13:407][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Menu/W_Menu" FILE="../../../../../../Users/CelsivincysKumar/Documents/GitHub/LevelHerUp-GameJam/LHUJam24/Content/UI/Menu/W_Menu.uasset" SILENT=true
+[2024.11.09-05.43.13:415][368]LogSavePackage: Moving output files for package: /Game/UI/Menu/W_Menu
+[2024.11.09-05.43.13:416][368]LogSavePackage: Moving '../../../../../../Users/CelsivincysKumar/Documents/GitHub/LevelHerUp-GameJam/LHUJam24/Saved/W_MenuAEC5A80B44C14EA9F604558A65D19A30.tmp' to '../../../../../../Users/CelsivincysKumar/Documents/GitHub/LevelHerUp-GameJam/LHUJam24/Content/UI/Menu/W_Menu.uasset'
+[2024.11.09-05.43.13:424][368]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 496 ms)
+[2024.11.09-05.43.13:432][368]AssetCheck: New page: Asset Save: W_Menu
+[2024.11.09-05.43.13:432][368]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Menu/W_Menu.W_Menu
+[2024.11.09-05.43.53:619][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
