@@ -75,3 +75,6 @@ DerivedDataCache/*
 *.log
 *.ini
 *.bin
+/LHUJam24/Saved
+/LHUJam24/Intermediate
+/LHUJam24/Binaries
